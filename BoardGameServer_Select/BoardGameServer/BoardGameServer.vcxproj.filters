@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Packet">
+      <UniqueIdentifier>{622cd09d-a7b8-46f4-abf1-2634a0e6fbcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{d772822b-c411-4776-837c-658bc43099cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Session">
+      <UniqueIdentifier>{e3908b67-a9e6-4ba1-adac-3183d39c0ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Lobby">
+      <UniqueIdentifier>{3363e585-f5bc-4247-ba58-bf597d90e9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ThreadClass">
+      <UniqueIdentifier>{81f73824-c14c-4b0e-856e-8e210be9473b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util">
+      <UniqueIdentifier>{5e238d4f-b9b3-42d9-80fe-acea278a16cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\_NotUsing">
+      <UniqueIdentifier>{a9dd48df-0e2d-4a5e-8fb4-d861f821d761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\_NotUsing\Room%28현재 미사용중%29">
+      <UniqueIdentifier>{396f8be7-2e90-44a8-aa9c-add163e8d11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\_NotUsing\폐기">
+      <UniqueIdentifier>{f2ab3e4c-a652-4c88-b93a-0f5ca65286b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\_NotUsing\ThreadPool%28임시%29">
+      <UniqueIdentifier>{f7d70e1b-dffd-48e3-aac0-b97216c74e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Channel">
+      <UniqueIdentifier>{cecc72fc-df69-4256-a8f9-44b73e602c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util\NotUsing">
+      <UniqueIdentifier>{f694fb91-e45c-4525-b1f9-7355320b6b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\User">
+      <UniqueIdentifier>{cce948bd-61a5-41df-8cad-06d2cc3f13ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>소스 파일\_NotUsing\Room%28현재 미사용중%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>소스 파일\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>소스 파일\_NotUsing\ThreadPool%28임시%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionManager.cpp">
+      <Filter>소스 파일\_NotUsing\폐기</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>소스 파일\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일\User</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="packet.h">
+      <Filter>소스 파일\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>소스 파일\_NotUsing\Room%28현재 미사용중%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>소스 파일\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>소스 파일\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>소스 파일\_NotUsing\ThreadPool%28임시%29</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectClass.h">
+      <Filter>소스 파일\ThreadClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadClass.h">
+      <Filter>소스 파일\ThreadClass</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionManager.h">
+      <Filter>소스 파일\_NotUsing\폐기</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>소스 파일\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CircBuf.h">
+      <Filter>소스 파일\Util\NotUsing</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>소스 파일\User</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
